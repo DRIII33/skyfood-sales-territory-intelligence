@@ -38,11 +38,11 @@
 
 **"Transforming Raw Sales Data into Predictive Revenue Protection"**
 
-## 📊 Executive Summary
+## Executive Summary
 
 This project provides **Skyfood Equipment LLC** with a sophisticated decision-support system to manage the North American sales of Brazilian-manufactured food processing equipment. By integrating **Python-based statistical modeling** with **BigQuery data warehousing**, this framework identifies a **$257.10K revenue gap** and provides a roadmap for recovery through territory-specific interventions.
 
-## 🎯 The Case for an In-House Data Analyst
+## The Case for an In-House Data Analyst
 
 * **Decision Intelligence:** Unlike static reporting, this framework uses **Z-Scores** to identify "Statistically Critical" failures, preventing management from wasting time on average variances.
 * **Operational Agility:** Real-time alignment between **Sales Velocity** and **Inventory Capacity** ensures the Miami warehouse never misses a sale due to Brazil-US lead times.
