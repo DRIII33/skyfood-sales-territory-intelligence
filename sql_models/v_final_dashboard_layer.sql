@@ -7,8 +7,8 @@ SELECT
     r.mtd_sales,
     r.units_sold,
     r.unit_quota,
-    r.active_leads, -- Restored field
-    r.z_score,      -- Restored field from Python analysis
+    r.active_leads,
+    r.z_score,
     (r.q1_quota - r.mtd_sales) AS revenue_gap,
     ROUND(r.attainment_pct, 2) AS attainment_pct,
     -- Mapping the Efficiency metric from the secondary table
