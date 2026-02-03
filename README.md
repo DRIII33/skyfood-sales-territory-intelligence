@@ -12,7 +12,7 @@ Skyfood Equipment LLC, a primary North American distributor for **Metalúrgica S
 
 ## The Business Problem
 
-The "Miami Gap" represents **$257,100 in uncaptured revenue** for Q1 2026. Prior to this project, management relied on lagging indicators that failed to identify ***why*** certain territories were underperforming. High lead volumes were being squandered in some regions, while others lacked the inventory velocity to meet 2026 product catalog goals.
+The "***Miami Gap***" represents **$257,100 in uncaptured revenue** for Q1 2026. Prior to this project, management relied on lagging indicators that failed to identify ***why*** certain territories were underperforming. High lead volumes were being squandered in some regions, while others lacked the inventory velocity to meet 2026 product catalog goals.
 
 ## Project Objectives & Scope
 
