@@ -1,10 +1,10 @@
-### **The README.md (Portfolio Edition)**
+# Skyfood 2026: Sales Performance & Territory Intelligence (SPTI)
+
+**README.md** *(Portfolio Edition)*
 
 **Author:** Data Analyst - Daniel Rodriguez III
 
-# Skyfood 2026: Sales Performance & Territory Intelligence (SPTI)
-
-**"Bridging the Brazil-US Revenue Gap through Predictive Analytics"**
+**Title:** "Bridging the Brazil-US Revenue Gap through Predictive Analytics"
 
 ## Business Scenario
 
@@ -35,7 +35,7 @@ The "***Miami Gap***" represents **$257,100 in uncaptured revenue** for Q1 2026.
 
 ---
 
-### **Management Briefing (For Dashboard Cover Page)**
+### **Management Briefing** *(Dashboard Cover Page)*
 
 **Executive Summary: SPTI Command Center v1.0**
 This Command Center provides a high-fidelity diagnostic of Skyfood Equipment LLC’s 2026 North American sales landscape. By integrating statistical Z-Score modeling and real-time lead efficiency metrics, this dashboard enables leadership to distinguish between pipeline deficiencies and conversion failures. From high-level revenue gap analysis to granular product velocity tracking, this tool transforms raw data into actionable intelligence, ensuring inventory alignment with the Miami warehouse and providing a clear roadmap for strategic rep intervention.
@@ -54,5 +54,5 @@ The project is now perfectly aligned.
 
 1. **The Logic** is consistent: *Bill McCoy is the priority risk (Financial/Statistical).*
 2. **The Inventory** is synced: *INT90S is the velocity leader.*
-3. **The Business Case** is clear: *Transformed a "reporting" task into a "**revenue-saving**" system.*
+3. **The Business Case** is clear: *Transformed a "**reporting**" task into a "**revenue-saving**" system.*
 
