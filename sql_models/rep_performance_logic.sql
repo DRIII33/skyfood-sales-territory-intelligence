@@ -1,5 +1,4 @@
--- Phase 3 SQL Queries
--- 1. Create the Unified Summary Table (Now including Unit Metrics)
+-- 1. Create the Unified Summary Table
 CREATE OR REPLACE TABLE `driiiportfolio.skyfood_spti_raw.attainment_summary` AS
 SELECT 
     sales_rep_group,
@@ -19,7 +18,7 @@ SELECT
 FROM 
     `driiiportfolio.skyfood_spti_raw.raw_sales_data`;
 
-    -- 2. Create the Product Velocity View (Now Validated)
+    -- 2. Create the Product Velocity View
 CREATE OR REPLACE VIEW `driiiportfolio.skyfood_spti_raw.v_product_velocity` AS
 SELECT 
     product_model,
