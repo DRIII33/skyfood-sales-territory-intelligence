@@ -1,100 +1,58 @@
-### **Part 1: Strategic Project Audit & Alignment**
+### **Part 2: The README.md (Portfolio Edition)**
 
-#### **1. Business Scenario & Problem**
-
-* **Context:** Skyfood Equipment LLC (Miami, FL) faces the "Middle-Man’s Dilemma"—managing high-value Brazilian imports (Skymsen) with a US-based independent rep network.
-* **Problem:** Prior to this project, "Revenue Leakage" was invisible. Management could not distinguish if a territory was failing due to poor lead quality, rep underperformance, or inventory stock-outs.
-* **Resolution:** The SPTI framework (Sales Performance & Territory Intelligence) provides a 3-tier diagnostic: Financial (BigQuery), Statistical (Python), and Visual (Looker Studio).
-
-#### **2. Analysis & Insights Summary**
-
-* **The Conversion Gap:** We proved that high lead volume does not equal high revenue. Rep groups like **Hybrid Marketing** are squandering leads, while **Diettrich Sales** is starving for them.
-* **Statistical Significance:** By applying **Z-Scores**, we removed "noise" from the data. We identified that **Bill McCoy Associates** isn't just "behind"—they are a statistical outlier requiring immediate management intervention.
-* **Inventory Velocity:** We identified that the **INT90S Tenderizer** is moving at 95% capacity, triggering an immediate logistics alert to the Brusque, Brazil factory.
-
-#### **3. Conclusion & Recommendations**
-
-* **Recommendation 1:** Reallocate the Q1 marketing budget from Hybrid Marketing to Diettrich Sales to balance lead efficiency.
-* **Recommendation 2:** Launch a "Vacuum Packaging Masterclass" for Bill McCoy Associates to improve the 52% conversion rate on the SVP16 line.
-* **Recommendation 3:** Increase the safety stock of INT90S Tenderizers in the Miami warehouse by 20% to prevent stock-outs.
-
----
-
-### **Part 2: Deliverables & GitHub Checklist**
-
-| Category | Deliverable Item | Status | GitHub Location |
-| --- | --- | --- | --- |
-| **Data Engine** | `skyfood_stat_analysis.csv` (Cleaned & Flagged) | ✅ | `/data/processed/` |
-| **Python Logic** | `statistical_validation.ipynb` (Z-Scores/Correlations) | ✅ | `/notebooks/` |
-| **SQL Layer** | `v_final_dashboard_layer.sql` (Master View) | ✅ | `/sql/views/` |
-| **Visualization** | Looker Studio Executive Command Center (PDF/Link) | ✅ | `/reports/visuals/` |
-| **Documentation** | Technical README.md & Management Brief | 🛠️ | Root Directory |
-
----
-
-### **Part 3: Project Documentation (README.md)**
+**Author:** Data Analyst - Daniel Rodriguez III
 
 # Skyfood 2026: Sales Performance & Territory Intelligence (SPTI)
 
-**"Transforming Raw Sales Data into Predictive Revenue Protection"**
+**"Bridging the Brazil-US Revenue Gap through Predictive Analytics"**
 
-## Executive Summary
+## Business Scenario
 
-This project provides **Skyfood Equipment LLC** with a sophisticated decision-support system to manage the North American sales of Brazilian-manufactured food processing equipment. By integrating **Python-based statistical modeling** with **BigQuery data warehousing**, this framework identifies a **$257.10K revenue gap** and provides a roadmap for recovery through territory-specific interventions.
+Skyfood Equipment LLC, a primary North American distributor for **Metalúrgica Skymsen**, manages a complex network of independent sales representatives. Operating in the high-stakes industrial kitchen equipment market, the company faced a significant visibility challenge: the inability to distinguish between market-driven territory failure and individual representative performance issues.
 
-## The Case for an In-House Data Analyst
+## The Business Problem
 
-* **Decision Intelligence:** Unlike static reporting, this framework uses **Z-Scores** to identify "Statistically Critical" failures, preventing management from wasting time on average variances.
-* **Operational Agility:** Real-time alignment between **Sales Velocity** and **Inventory Capacity** ensures the Miami warehouse never misses a sale due to Brazil-US lead times.
-* **ROI:** Identified a single **$34,100 recovery opportunity** with one rep group (Bill McCoy Associates), justifying the analyst's overhead in a single quarter.
+The "Miami Gap" represents **$257,100 in uncaptured revenue** for Q1 2026. Prior to this project, management relied on lagging indicators that failed to identify ** *why* ** certain territories were underperforming. High lead volumes were being squandered in some regions, while others lacked the inventory velocity to meet 2026 product catalog goals.
 
-## Technical Architecture
+## Project Objectives & Scope
 
-1. **Data Ingestion:** Synthetic generation of 2026 sales data based on actual Skyfood product lines (SMM30, SVP16, etc.).
-2. **Statistical Layer (Python):** * Outlier detection using **Standard Deviation (Z-Scores)**.
-* Correlation analysis between **Lead Volume** and **Quota Attainment**.
+* **Revenue Protection:** Identify and mitigate "At-Risk" revenue through early-warning statistical flags.
+* **Resource Optimization:** Reallocate lead-generation budgets based on "Revenue per Lead" efficiency.
+* **Inventory Alignment:** Synchronize sales velocity for high-demand units (e.g., INT90S Tenderizer) with Miami warehouse capacity.
+* **The In-House Case:** Demonstrate how internal data ownership reduces the $34k+ "Bill McCoy Risk" through immediate, data-driven intervention.
 
+## Tech Stack & Methodology
 
-3. **Data Warehouse (BigQuery):** * SQL views engineered for performance (`v_final_dashboard_layer`).
-* Automated logic for `strategic_status` (Critical, Action, On Track).
+* **Python:** Engineered Z-Score models and correlation matrices to identify performance outliers.
+* **Google BigQuery:** Developed a robust SQL warehouse layer to automate metric aggregation and strategic status tagging.
+* **Looker Studio:** Designed a 3-tier Executive Command Center for real-time diagnostic storytelling.
 
+## Strategic Insights & Conclusions
 
-4. **Visualization (Looker Studio):** * **Page 1:** Executive Revenue Health (Risk quadrants).
-* **Page 2:** Product Velocity (Supply chain alignment).
-* **Page 3:** Tactical Intervention (The "Action List").
-
-
-
-## Key Insights
-
-* **Conversion Crisis:** **Hybrid Marketing** and **Bill McCoy Associates** have high lead counts but sub-60% conversion rates, indicating a skill gap.
-* **Inventory Alert:** The **INT90S Tenderizer** has reached **95% velocity**, requiring an immediate restocking order to prevent stock-outs.
-* **Statistical Outlier:** Bill McCoy Associates represents the highest priority risk with a **Z-Score of -1.46**.
-
-## Repository Structure
-
-```text
-├── data/
-│   ├── raw/                # Original sales and lead data
-│   └── processed/          # Data enriched with statistical flags
-├── notebooks/
-│   └── stat_modeling.ipynb # Python logic for Z-Scores & Correlations
-├── sql/
-│   └── views/              # BigQuery SQL View definitions
-├── reports/
-│   └── visuals/            # Looker Studio PDF exports & screenshots
-└── README.md               # Project documentation
-
-```
-
-## Strategic Recommendations
-
-1. **Rebalance Leads:** Shift 15% of lead allocation from Hybrid Marketing to Diettrich Sales.
-2. **Targeted Training:** Deploy product specialists to Bill McCoy Associates for SVP16 Vacuum training.
-3. **Logistics Sync:** Update the Brusque factory production schedule to match the INT90S high-velocity trend.
+* **The Conversion Crisis:** The analysis revealed that **Bill McCoy Associates** and **Hybrid Marketing** are not "lead-starved" but "conversion-challenged," holding the lowest statistical performance scores (Z-Score -1.46) despite high lead counts.
+* **Inventory Pressure:** The **INT90S Tenderizer** is identified as a high-velocity outlier (95% attainment), requiring an immediate replenishment order from the Brazil factory to prevent stock-outs.
+* **Root Cause Discovery:** Discovered that **Diettrich Sales**’ underperformance is a "Low Pipeline" issue (11 leads), not a skill issue, suggesting a need for increased marketing support in their territory.
 
 ---
 
-### **Final Management Note**
+### **Part 3: Management Briefing (For Dashboard Cover Page)**
 
-*This project serves as a proof-of-concept for how Skyfood Equipment LLC can leverage modern data stacks to maintain its 60-year legacy of engineering excellence in a data-driven 2026 marketplace.*
+**Executive Summary: SPTI Command Center v1.0**
+This Command Center provides a high-fidelity diagnostic of Skyfood Equipment LLC’s 2026 North American sales landscape. By integrating statistical Z-Score modeling and real-time lead efficiency metrics, this dashboard enables leadership to distinguish between pipeline deficiencies and conversion failures. From high-level revenue gap analysis to granular product velocity tracking, this tool transforms raw data into actionable intelligence, ensuring inventory alignment with the Miami warehouse and providing a clear roadmap for strategic rep intervention.
+
+---
+
+### **Part 4: Project Disclaimer**
+
+**Disclaimer:** *This project is a strictly independent analytical study developed for portfolio purposes. All data—including sales figures, lead volumes, quotas, and representative performance—is synthetically generated for simulation. While the project utilizes publicly available information regarding Skyfood Equipment LLC’s corporate history and the 2026 product catalog, it does not utilize proprietary company data, nor does it represent the official financial standing, internal strategies, or opinions of Skyfood Equipment LLC or Metalúrgica Skymsen.*
+
+---
+
+### **Final Audit Conclusion**
+
+The project is now perfectly aligned.
+
+1. **The Logic** is consistent: *Bill McCoy is the priority risk (Financial/Statistical).*
+2. **The Inventory** is synced: *INT90S is the velocity leader.*
+3. **The Business Case** is clear: *Transformed a "reporting" task into a "**revenue-saving**" system.*
+
